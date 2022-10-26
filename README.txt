@@ -11,4 +11,4 @@ node encrypt_decrypt.js -e --in ./files_after_decrypt/bowtie.txt --out ./files_a
 Decrypt:
 node encrypt_decrypt.js -d --in ./files_after_encrypt/bowtie_encrypted.json --out ./files_after_decrypt/bowtie_decrypted.txt --key arn:aws:kms:ap-northeast-1:088888999939:key/mrk-000000000099999999999
 
-Remark: --key is ARN from KMS key. 
+Remark: --key is ARN from KMS page.
